@@ -19,7 +19,7 @@ const page = () => {
     <p className='py-4  text-[16px] text-justify md:px-9 px-3'>If they’re not installed, download and install Node.js from <Link href="https://nodejs.org/" className='text-indigo-500'>nodejs.org</Link></p>
     <h3 className='text-xl text-left font-semibold font-serif pb-4 md:px-9 px-3'>2. Create a New Next.js Project</h3>
     <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>Use the <span className='bg-gray-400 p-1'>npx</span> command to create a new Next.js project. In your terminal, run</p>
-    <div className='bg-black text-lg text-left px-8 py-7 text-cyan-500 md:h-[80px] h-[120px] rounded-lg md:w-[45%] w-[85%] ml-[5%]'>
+    <div className='bg-black text-lg text-left px-8 py-7 text-cyan-500 md:h-[100px] h-[190px] rounded-lg md:w-[45%] w-[85%] ml-[5%]'>
         <code>npx create-next-app@latest my-nextjs-app</code>
     </div>
     <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Replace my-nextjs-app with your desired project name.</p>
@@ -63,7 +63,7 @@ const page = () => {
            </ul>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'>For styling, Tailwind CSS is a great option with Next.js. Here’s how to set it up:</p>
            <p className='pb-4  text-[16px] text-justify md:px-9 px-3'><b>Install Tailwind:</b></p>
-           <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-3 py-8 text-cyan-500 md:h-[80px] h-[120px] rounded-lg w-[70%] ml-[5%]'>
+           <div className='bg-black my-3 border-2 border-gray-500 text-lg text-left md:px-8 px-3 py-8 text-cyan-500 md:h-[100px] h-[120px] rounded-lg w-[70%] ml-[5%]'>
             <code>npm install -D tailwindcss postcss autoprefixernpx tailwindcss init -p</code>
             </div>
             <p className='py-4  text-[16px] text-justify md:px-9 px-3'>Configure Tailwind: Open the generated tailwind.config.js and add the paths to your content:</p>
@@ -113,7 +113,7 @@ const page = () => {
             <h3 className='text-xl text-left font-semibold font-serif py-4 md:px-9 px-3'>9. Using Environment Variables</h3>
             <ul className='md:px-9 px-3'>
             <li className='pb-2 list-disc text-md  md:mx-9 mx-3'>Create a <span className='bg-gray-400'>.env.local</span> file in the root directory for environment variables:</li>
-            <div className='bg-black my-3 border-2 border-gray-500 sm:text-[1rem] hidden md:block sm:block md:text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 h-[80px] rounded-lg md:w-[50%] w-[70%] md:ml-[5%]'>
+            <div className='bg-black my-3 border-2 border-gray-500 sm:text-[1rem] hidden md:block sm:block md:text-lg text-left md:pl-12 pl-2 py-8 text-cyan-500 h-[80px] rounded-lg md:w-[70%] w-[70%] md:ml-[5%]'>
               <code>{`NEXT_PUBLIC_API_URL=https://api.example.com`}</code>
             </div>
             <li className='py-2 list-disc text-md  md:mx-9 mx-3'>Access these variables in your app using <span className='bg-gray-400'>process.env.NEXT_PUBLIC_API_URL</span>.</li>
